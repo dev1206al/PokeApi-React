@@ -1,0 +1,41 @@
+.header {
+    background-color: rgba(255, 0, 0, 0.650);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+}
+
+.imgLogo {
+    height: 50px;
+}
+
+.header_nav_list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    gap: 20px;
+}
+
+.header-list-button {
+    background-color: #007bffd1; /* Color azul */
+    color: white !important; /* Letras blancas */
+    border: none;
+    padding: 8px 16px;
+    font: inherit;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px; /* Bordes redondeados */
+    transition: background-color 0.3s; /* Transición suave en el cambio de color de fondo */
+    text-decoration: none; /* Sin subrayado */
+}
+
+.header-list-button:hover {
+    background-color: #0056b3; /* Azul oscuro en hover */
+}
+
+.header-list-button:active,
+.header-list-button:focus {
+    outline: none;
+    background-color: #0056b3; /* Azul oscuro cuando está activo */
+}
